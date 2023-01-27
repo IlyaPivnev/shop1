@@ -1,0 +1,122 @@
+html{
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+div{
+    display: flex;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    position: absolute;
+width: 1460px;
+height: 78px;
+left: 0px;
+top: 0px;
+background: #FF9286;
+}
+
+a{
+    width: 80px;
+    height: 21px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-left: 200px;
+    margin-top: 25px;
+}
+
+.heading{
+    position: absolute;
+width: 676px;
+height: 233px;
+left: 130px;
+top: 150px;
+
+font-family: 'Arvo';
+font-style: normal;
+font-weight: 700;
+font-size: 60px;
+line-height: 137.2%;
+color: #181513;
+}
+
+.smoll_heading{
+    position: absolute;
+width: 400px;
+height: 59px;
+left: 133px;
+top: 458px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 300;
+font-size: 20px;
+line-height: 24px;
+
+color: #181513;
+}
+
+.start_store{
+    position: absolute;
+    width: 171px;
+    height: 24px;
+    left: 195px;
+    top: 591px;
+    
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #FF9286;
+    box-sizing: border-box;
+
+position: absolute;
+width: 302px;
+height: 71px;
+left: 130px;
+top: 567px;
+
+border: 1px solid #FF9286;
+border-radius: 10px;
+}
+
+.connection{
+    position: absolute;
+width: 216px;
+height: 24px;
+left: 130px;
+top: 691px;
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+letter-spacing: -0.02em;
+
+color: rgba(0, 0, 0, 0.5);
+
+}
+
+.vk{
+  position:absolute;
+  top: 760px;
+  padding-left: 120px
+}
+
+.tg{
+    position:absolute;
+  top: 760px;
+  padding-left: 170px; 
+}
