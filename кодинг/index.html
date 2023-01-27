@@ -1,34 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-    <link rel="stylesheet" href="style.css">
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<head>
+    <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
 </head>
+
 <body>
     <header>
-        <div  class="header">
-            
         <a href="./index.html">Главная</a>
         <a href="./kontact.html">Контакты</a>
         <a href="./catalog.html">Каталог</a>
         <a href="./basket.html">Корзина</a>
-        
-        </div>
-
-        <div>
-            <h1 class="heading">Узнайте, как платить меньше на 40-50% 
-                за те же товары</h1>
-                <h2 class="smoll_heading">Удобные покупки
-                    без дополнительных условий</h2>
-                    <a href="./catalog.html"><button class="start_store">Начать покупки</button></a>
-                    <p class="connection">Как связаться с нами</p>
-                    <img class="vk" src="./image/Vector.png" alt="*">
-                    <img class="tg" src="./image/Vector (1).png" alt="*">
-        </div>
     </header>
+    <div class="section__info">
+        <h1 class="heading">
+            Узнайте, как платить меньше на 40-50% за те же товары
+        </h1>
+        <h2 class="smoll_heading">Удобные покупки без дополнительных условий</h2>
+        <!-- Если твоя ссылка куда то ведёт то лучше стилизовать саму ссылку без добавления внутрь кнопки-->
+        <a href="./catalog.html">
+            <button class="start_store">Начать покупки</button>
+        </a>
+    </div>
+    <div class="section__contacts">
+        <p class="connection">Как связаться с нами</p>
+        <div>
+            <img class="vk" src="./image/Vector.png" alt="*" />
+            <img class="tg" src="./image/Vector (1).png" alt="*" />
+        </div>
+    </div>
+
     <script src="index.js"></script>
 </body>
+
 </html>
